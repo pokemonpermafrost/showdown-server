@@ -4,4 +4,14 @@ export const Learnsets: import("../sim/dex-species").LearnsetDataTable = {
 			tackle: ["9L1"],
 		},
 	},
+	panduneyr: {
+		learnset: {
+			tackle: ["9L1"],
+		},
+	},
+	longdeerbyen: {
+		learnset: {
+			tackle: ["9L1"],
+		},
+	},
 };
