@@ -32,4 +32,24 @@ export const AbilitiesCustom: import("../sim/dex-abilities").AbilityDataTable =
 			rating: 4,
 			num: 2001,
 		},
+
+		castling: {
+			onFoeTryMove(target, source, move) {
+				// TODO: This doesn't work, it swaps positions but doesn't change the target.
+				// Also it sometimes doesn't trigger?
+				if (
+					this.gameType !== "doubles" ||
+					target.position === source.position
+				) {
+					return;
+				}
+
+				const newPosition = source.position === 0 ? 1 : 0;
+				this.swapPosition(source, newPosition, "[from] ability: Castling");
+			},
+			flags: { breakable: 1 },
+			name: "Castling",
+			rating: 2.5,
+			num: 214,
+		},
 	};
