@@ -10,7 +10,8 @@ export const MovesTextCustom: { [id: IDEntry]: MoveText } = {
 		shortDesc: "Always results in a critical hit; no accuracy check.",
 	},
 	dragonwave: {
-		name: "Lowers the user's Defense and Special Defense by 1 stage.",
+		name: "Dragon Wave",
+		desc: "Lowers the user's Defense and Special Defense by 1 stage.",
 		shortDesc: "Lowers the user's Defense and Sp. Def by 1.",
 	},
 };
