@@ -11,6 +11,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		color: "Purple",
 		evos: ["Panduneyr"],
 		eggGroups: ["Grass", "Fairy"],
+		isNonstandard: null,
 	},
 	panduneyr: {
 		num: 2002,
@@ -24,6 +25,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		color: "Green",
 		evos: ["Longdeerbyen"],
 		eggGroups: ["Grass", "Fairy"],
+		isNonstandard: null,
 	},
 	longdeerbyen: {
 		num: 2003,
@@ -36,5 +38,6 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 		weightkg: 78,
 		color: "Green",
 		eggGroups: ["Grass", "Fairy"],
+		isNonstandard: null,
 	},
 };
