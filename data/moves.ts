@@ -1,3 +1,5 @@
+import { MovesCustom } from "./moves-custom";
+
 // List of flags and their descriptions can be found in sim/dex-moves.ts
 
 export const Moves: import('../sim/dex-moves').MoveDataTable = {
@@ -21300,4 +21302,5 @@ export const Moves: import('../sim/dex-moves').MoveDataTable = {
 		type: "Fire",
 		contestType: "Beautiful",
 	},
+	...MovesCustom,
 };
