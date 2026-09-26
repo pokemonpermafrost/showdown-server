@@ -1,3 +1,5 @@
+import { MovesTextCustom } from "./moves-custom";
+
 export const MovesText: { [id: IDEntry]: MoveText } = {
 	"10000000voltthunderbolt": {
 		name: "10,000,000 Volt Thunderbolt",
@@ -7714,4 +7716,6 @@ export const MovesText: { [id: IDEntry]: MoveText } = {
 			shortDesc: "Nearly always goes first. Always crits.",
 		},
 	},
+
+	...MovesTextCustom,
 };
