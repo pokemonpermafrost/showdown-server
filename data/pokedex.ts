@@ -1,6 +1,7 @@
 export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 	fawnyr: {
 		num: 2001,
+		gen: 9,
 		name: "Fawnyr",
 		types: ["Grass"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -14,6 +15,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 	},
 	panduneyr: {
 		num: 2002,
+		gen: 9,
 		name: "Panduneyr",
 		types: ["Grass", "Fairy"],
 		genderRatio: { M: 0.875, F: 0.125 },
@@ -27,6 +29,7 @@ export const Pokedex: import("../sim/dex-species").SpeciesDataTable = {
 	},
 	longdeerbyen: {
 		num: 2003,
+		gen: 9,
 		name: "Longdeerbyen",
 		types: ["Grass", "Fairy"],
 		genderRatio: { M: 0.875, F: 0.125 },
