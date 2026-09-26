@@ -1,3 +1,5 @@
+import { AbilitiesTextCustom } from './abilities-custom';
+
 export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 	noability: {
 		name: "No Ability",
@@ -2318,4 +2320,6 @@ export const AbilitiesText: { [id: IDEntry]: AbilityText } = {
 
 		activate: "  {POKEMON} extends {MOVE} by 2 turns!",
 	},
+
+	...AbilitiesTextCustom,
 };

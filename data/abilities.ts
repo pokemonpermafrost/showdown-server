@@ -1,3 +1,5 @@
+import { AbilitiesCustom } from './abilities-custom';
+
 /*
 
 Ratings and how they work:
@@ -5703,4 +5705,6 @@ export const Abilities: import('../sim/dex-abilities').AbilityDataTable = {
 		rating: 3,
 		num: -3,
 	},
+
+	...AbilitiesCustom,
 };
