@@ -29,4 +29,37 @@ export const MovesCustom: import("../sim/dex-moves").MoveDataTable = {
 		target: "normal",
 		type: "Fairy",
 	},
+
+	skewer: {
+		num: 2002,
+		accuracy: true,
+		basePower: 70,
+		category: "Physical",
+		name: "Skewer",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1, metronome: 1 },
+		willCrit: true,
+		target: "normal",
+		type: "Steel",
+	},
+
+	dragonwave: {
+		num: 2003,
+		accuracy: 100,
+		basePower: 100,
+		category: "Special",
+		name: "Dragon Wave",
+		pp: 10,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		self: {
+			boosts: {
+				def: -1,
+				spd: -1,
+			},
+		},
+		target: "allAdjacentFoes",
+		type: "Dragon",
+	},
 };
